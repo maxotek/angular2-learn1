@@ -4,7 +4,8 @@ import {AuthorsService} from './authors.service';
 @Component({
     selector: "authors",
     template: `
-    <h2>{{title}}</h2>
+    <h2>Authors</h2>
+    {{title}}
     <ul>
         <li *ngFor="#author of authors">{{author}}</li>
     </ul>
