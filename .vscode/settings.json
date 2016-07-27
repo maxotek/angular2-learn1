@@ -1,5 +1,9 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "editor.fontSize": 14
-    
+    "editor.fontSize": 14,
+     "files.exclude": {
+        "node_modules/": true,
+        "app/*.js": true,
+        "app/*.js.map": true
+    }
 }
