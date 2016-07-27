@@ -1,5 +1,3 @@
 *.js.map
+app/*.js
 node_modules
-app.component.js
-boot.js
-courses.component.js
